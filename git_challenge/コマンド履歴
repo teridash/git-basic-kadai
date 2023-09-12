@@ -1,0 +1,26 @@
+PS C:\Users\teri_\kadai_004> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\teri_\kadai_004
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/09/12     19:30                git_challenge       
+
+PS C:\Users\teri_\kadai_004> git init
+Initialized empty Git repository in C:/Users/teri_/kadai_004/.git/
+PS C:\Users\teri_\kadai_004> git add git_challenge
+PS C:\Users\teri_\kadai_004> git commit -m "hello_world.txtを追加"
+[main (root-commit) 8d6bcd4] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+ PS C:\Users\teri_\kadai_004> git add git_challenge
+PS C:\Users\teri_\kadai_004> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\teri_\kadai_004> git commit -m "日本語訳を追記"
+[main 7785eb5] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\teri_\kadai_004> git log --oneline
+7785eb5 (HEAD -> main) 日本語訳を追記
+8d6bcd4 hello_world.txtを追加
